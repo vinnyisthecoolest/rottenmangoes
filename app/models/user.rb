@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-  has_sucure_password
+  has_secure_password
 
   validates :email, presence: true
   validates :firstname, presence: true
